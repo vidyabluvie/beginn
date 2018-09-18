@@ -1,10 +1,11 @@
 #include<stdio.h>
 #include<conio.h>
-int n=2016;
+int n;
 void main()
 {
 clrscr();
-if((n%4)&&(n%400)&&(n!%100))
+scanf("%d",&n);
+if((n%4)&&(n%400)&&(n%100==0))
 {
 printf("\nYes");
 }
